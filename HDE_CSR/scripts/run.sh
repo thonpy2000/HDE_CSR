@@ -1,0 +1,2 @@
+# python3 train.py --model MDF_Net --dataset stanford_dog --gpu 3 --opt sgd --lr 1e-1 --gamma 1e-1 --epoch 130 --val_epoch 1 --weight_decay 5e-4 --nesterov --train_way 20 --train_shot 5 --train_transform_type 0 --test_transform_type 0 --test_shot 1 5 --alpha 0.5 --resnet
+python3 train.py --model HDE_CSR --dataset aircraft --gpu 3 --opt sgd --lr 1e-1 --gamma 1e-1 --epoch 130 --val_epoch 1 --weight_decay 5e-4 --nesterov --train_way 20 --train_shot 5 --train_transform_type 0 --test_transform_type 0 --test_shot 1 5 --alpha 0.5 --resnet

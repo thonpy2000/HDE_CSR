@@ -1,0 +1,31 @@
+[12/22 09:31:31] display all the hyper-parameters in args:
+[12/22 09:31:31] opt: sgd
+[12/22 09:31:31] lr: 0.1
+[12/22 09:31:31] gamma: 0.1
+[12/22 09:31:31] epoch: 150
+[12/22 09:31:31] weight_decay: 0.0005
+[12/22 09:31:31] gpu: 0
+[12/22 09:31:31] seed: 42
+[12/22 09:31:31] val_epoch: 1
+[12/22 09:31:31] resnet: True
+[12/22 09:31:31] nesterov: True
+[12/22 09:31:31] pre: False
+[12/22 09:31:31] no_val: False
+[12/22 09:31:31] train_way: 30
+[12/22 09:31:31] test_way: 5
+[12/22 09:31:31] train_shot: 5
+[12/22 09:31:31] test_shot: [1, 5]
+[12/22 09:31:31] train_query_shot: 15
+[12/22 09:31:31] test_query_shot: 16
+[12/22 09:31:31] train_transform_type: 0
+[12/22 09:31:31] test_transform_type: 0
+[12/22 09:31:31] val_trial: 1000
+[12/22 09:31:31] detailed_name: False
+[12/22 09:31:31] dataset: stanford_car
+[12/22 09:31:31] alpha: 0.5
+[12/22 09:31:31] model: C2_Net
+[12/22 09:31:31] resume: False
+[12/22 09:31:31] resume_epoch: 0
+[12/22 09:31:31] save_folder: /home/temp/py/CAA-Net/experiments/StanfordCar/C2_Net/ResNet-12_5-shot
+[12/22 09:31:31] ------------------------
+[12/22 09:31:32] start training!

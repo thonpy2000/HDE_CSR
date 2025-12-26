@@ -1,0 +1,31 @@
+[12/28 04:18:29] display all the hyper-parameters in args:
+[12/28 04:18:29] opt: sgd
+[12/28 04:18:29] lr: 0.1
+[12/28 04:18:29] gamma: 0.1
+[12/28 04:18:29] epoch: 150
+[12/28 04:18:29] weight_decay: 0.0005
+[12/28 04:18:29] gpu: 0
+[12/28 04:18:29] seed: 42
+[12/28 04:18:29] val_epoch: 1
+[12/28 04:18:29] resnet: False
+[12/28 04:18:29] nesterov: True
+[12/28 04:18:29] pre: False
+[12/28 04:18:29] no_val: False
+[12/28 04:18:29] train_way: 30
+[12/28 04:18:29] test_way: 5
+[12/28 04:18:29] train_shot: 5
+[12/28 04:18:29] test_shot: [1, 5]
+[12/28 04:18:29] train_query_shot: 15
+[12/28 04:18:29] test_query_shot: 16
+[12/28 04:18:29] train_transform_type: 0
+[12/28 04:18:29] test_transform_type: 0
+[12/28 04:18:29] val_trial: 1000
+[12/28 04:18:29] detailed_name: False
+[12/28 04:18:29] dataset: cub_raw
+[12/28 04:18:29] alpha: 0.5
+[12/28 04:18:29] model: C2_Net
+[12/28 04:18:29] resume: False
+[12/28 04:18:29] resume_epoch: 0
+[12/28 04:18:29] save_folder: /home/temp/py/MDF-Net/experiments/CUB_raw/C2_Net/Conv-4_5-shot
+[12/28 04:18:29] ------------------------
+[12/28 04:18:29] start training!
