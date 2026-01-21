@@ -1,0 +1,36 @@
+[01/21 09:39:59] display all the hyper-parameters in args:
+[01/21 09:39:59] opt: sgd
+[01/21 09:39:59] lr: 0.1
+[01/21 09:39:59] gamma: 0.1
+[01/21 09:39:59] epoch: 130
+[01/21 09:39:59] weight_decay: 0.0005
+[01/21 09:39:59] gpu: 2
+[01/21 09:39:59] seed: 42
+[01/21 09:39:59] val_epoch: 1
+[01/21 09:39:59] resnet: True
+[01/21 09:39:59] nesterov: True
+[01/21 09:39:59] pre: False
+[01/21 09:39:59] no_val: False
+[01/21 09:39:59] train_way: 20
+[01/21 09:39:59] test_way: 5
+[01/21 09:39:59] train_shot: 5
+[01/21 09:39:59] test_shot: [1, 5]
+[01/21 09:39:59] train_query_shot: 7
+[01/21 09:39:59] test_query_shot: 16
+[01/21 09:39:59] train_transform_type: 0
+[01/21 09:39:59] test_transform_type: 0
+[01/21 09:39:59] val_trial: 1000
+[01/21 09:39:59] detailed_name: False
+[01/21 09:39:59] dataset: aircraft
+[01/21 09:39:59] alpha: 0.5
+[01/21 09:39:59] beta: 0.5
+[01/21 09:39:59] model: HDE_CSR
+[01/21 09:39:59] resume: False
+[01/21 09:39:59] resume_epoch: 0
+[01/21 09:39:59] save_folder: /home/temp/py/HDE_CSR/HDE_CSR/experiments/Aircraft_fewshot/MDF_Net/ResNet-12_5-shot
+[01/21 09:39:59] ------------------------
+[01/21 09:40:00] start training!
+[01/21 09:43:03] 
+[01/21 09:43:03] epoch 1/130, iter 250:
+[01/21 09:43:03] train_loss: 5.83992
+[01/21 09:43:03] train_acc: 9.863

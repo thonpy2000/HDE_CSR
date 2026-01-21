@@ -25,7 +25,7 @@ class HDE_CSR_Net(nn.Module):
             self.dim = 64 * 25
             self.feature_extractor = Conv_4.BackBone(self.num_channel)
 
-        self.msdfr = MSDFR(self.resnet, self.num_channel)
+        self.msdfr = MSDFR(self.resnet, self.num_channel, self.args)
         self.csfr_high = CSFR(self.resnet, self.num_channel)
         self.csfr_mid = CSFR(self.resnet, self.num_channel)
 

@@ -1,5 +1,5 @@
 from functools import partial
-from model_design.HDE_CSR.trainers import HDE_CSR_train
+from trainers import HDE_CSR_train
 from trainers import trainer
 from datasets import dataloaders
 from utils.util import *
